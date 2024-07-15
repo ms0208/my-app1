@@ -1,0 +1,82 @@
+.sliderM {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+.slidesM {
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slidesM::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.slidesM::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.slidesM::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slidesM > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 98vh;
+  margin-right: 50px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+/* slide1 */
+.slidesM > .slide-1 {
+  background-image: url("https://images.unsplash.com/photo-1621335829175-95f437384d7c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bWVuLXN0eWxlfHx8fHx8MTY5MDY5NjExNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: black;
+  background-repeat: no-repeat;
+}
+.slidesM > .slide-1 > .slide1-text {
+  text-align: left;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+/* slide2 */
+.slidesM > .slide-2 {
+  background-image: url("https://images.unsplash.com/photo-1623756596824-aa42a04e3d01?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bWVuLXN0eWxlfHx8fHx8MTY5MDY5NzI1MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: #111425;
+  background-repeat: no-repeat;
+}
+.slidesM > .slide-2 > .slide2-text {
+  /* text-align: left; */
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+/* slide3 */
+.slidesM > .slide-3 {
+  background-image: url("https://images.unsplash.com/photo-1535160303093-adc1c60c347d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bWVuLWx1eHVyeXx8fHx8fDE2OTA2OTc5OTU&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  color: white;
+  background-repeat: no-repeat;
+}
+.slidesM > .slide-3 > .slide3-text {
+  text-align: left;
+  padding-right: 10rem;
+  padding-bottom: 3rem;
+}

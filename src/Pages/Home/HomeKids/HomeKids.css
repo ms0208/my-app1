@@ -1,0 +1,93 @@
+/* HomeWomen.css */
+.banner1K {
+  background-image: url("https://images.unsplash.com/photo-1617817376017-3de702f0c35f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1300");
+}
+
+.banner1K,
+.banner2K {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.banner1K > .container1 {
+  display: flex;
+}
+
+.banner1K > .container1 > p {
+  font-size: 10vh;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0 0 2rem 2rem;
+}
+
+.banner1K > .container2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner1K > .container2 p {
+  color: white;
+  font-size: 3vh;
+  padding: 0.5rem;
+  margin: 0 2rem 2rem 0;
+  background-color: #64676894;
+  border-radius: 3rem;
+}
+
+.categoriesK {
+  display: grid;
+  margin: auto;
+  max-width: 98%;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+
+.categoriesK > div {
+  height: 400px;
+  display: flex;
+}
+
+.categoriesK > div > p {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.banner2K {
+  background-image: url("https://images.unsplash.com/photo-1536825919521-ab78da56193b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1300");
+}
+
+.banner2K > .container1 {
+  display: flex;
+}
+
+.banner2K > .container1 > p {
+  display: flex;
+  font-size: 8vh;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0 0 2rem 2rem;
+}
+
+.banner2K > .container2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner2K > .container2 p {
+  color: white;
+  font-size: 3vh;
+  padding: 0.5rem;
+  margin: 0 2rem 2rem 0;
+  background-color: #64676894;
+  border-radius: 3rem;
+}

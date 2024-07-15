@@ -1,0 +1,79 @@
+.banner1W {
+  background-image: url("https://assets.website-files.com/63cffb7c16ab33a28e9734f2/63d15ac4f646b6779ab57215_project-01-p-2000.webp");
+}
+.banner1W,
+.banner2W {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner1W > .container1 {
+  display: flex;
+}
+.banner1W > .container1 > p {
+  font-size: 10vh;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0 0 2rem 2rem;
+}
+.banner1W > .container2 {
+  display: flex;
+  align-items: flex-end;
+}
+.banner1W > .container2 p {
+  color: white;
+  font-size: 3vh;
+  padding: 0.5rem;
+  margin: 0 2rem 2rem 0;
+  background-color: #64676894;
+  border-radius: 3rem;
+}
+.categoriesW {
+  display: grid;
+  margin: auto;
+  max-width: 98%;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+}
+.categoriesW > div {
+  height: 400px;
+  display: flex;
+}
+.categoriesW > div > p {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.banner2W {
+  background-image: url("https://images.unsplash.com/photo-1576082866986-460d8f2ae4fe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8d29tZW4tZmFzaGlvbnx8fHx8fDE2OTA2NjU4ODU&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+.banner2W > .container1 {
+  display: flex;
+}
+.banner2W > .container1 > p {
+  display: flex;
+  font-size: 8vh;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0 0 2rem 2rem;
+}
+.banner2W > .container2 {
+  display: flex;
+  align-items: flex-end;
+}
+.banner2W > .container2 p {
+  color: white;
+  font-size: 3vh;
+  padding: 0.5rem;
+  margin: 0 2rem 2rem 0;
+  background-color: #64676894;
+  border-radius: 3rem;
+}

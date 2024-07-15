@@ -1,0 +1,77 @@
+.sliderK {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+.slidesK {
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slidesK::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.slidesK::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.slidesK::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slidesK > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 98vh;
+  margin-right: 50px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+/* slide1 */
+.slidesK > .slide-1 {
+  background-image: url("https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* position: relative; */
+  color: black;
+  background-repeat: no-repeat;
+}
+.slidesK > .slide-1 > .slide1-text {
+  text-align: left;
+  padding-bottom: 3rem;
+  padding-right: 8rem;
+}
+/* slide2 */
+.slidesK > .slide-2 {
+  background-image: url("https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c308c;
+  /* position: relative; */
+  background-repeat: no-repeat;
+}
+/* slide3 */
+.slidesK > .slide-3 {
+  background-image: url("https://images.unsplash.com/photo-1541580104-e98c7a5dd683?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: #306b8c;
+}
+.slidesK > .slide-3 > .slide3-text {
+  text-align: left;
+  padding-left: 3.5rem;
+  padding-bottom: 4rem;
+  background-repeat: no-repeat;
+}

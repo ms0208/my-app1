@@ -1,0 +1,82 @@
+.sliderB {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+.slidesB {
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slidesB::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.slidesB::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.slidesB::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slidesB > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 98vh;
+  margin-right: 50px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+/* slide1 */
+.slidesB > .slide-1 {
+  background-image: url("https://images.unsplash.com/photo-1612817288484-6f916006741a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8d29tZW4tc3R5bGV8fHx8fHwxNjkwNzAwODU2&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: black;
+  background-repeat: no-repeat;
+}
+.slidesB > .slide-1 > .slide1-text {
+  text-align: left;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
+}
+/* slide2 */
+.slidesB > .slide-2 {
+  background-image: url("https://images.unsplash.com/photo-1440133197387-5a6020d5ace2?crop=faces,entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTM2NzQ3MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: white;
+  background-repeat: no-repeat;
+}
+.slidesB > .slide-2 > .slide2-text {
+  /* text-align: left; */
+  padding-top: 8rem;
+  padding-left: 4rem;
+}
+/* slide3 */
+.slidesB > .slide-3 {
+  background-image: url("https://images.unsplash.com/photo-1458538977777-0549b2370168?crop=face&cs=tinysrgb&fit=crop&fp-x=.29&fp-y=.33&fp-z=.2&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTM2NzQ3MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* position: relative; */
+  color: black;
+  background-repeat: no-repeat;
+}
+.slidesB > .slide-3 > .slide3-text {
+  text-align: left;
+  padding-top: 7rem;
+  padding-left: 2rem;
+}

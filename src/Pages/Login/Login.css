@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+}
+
+.login-form input,
+.login-form button {
+  margin-bottom: 15px;
+}
+
+.login-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.btn-outline-secondary {
+  border-radius: 10px;
+  color: #fff;
+  padding: 130px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

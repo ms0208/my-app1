@@ -1,0 +1,127 @@
+.product-info {
+  color: rgb(39, 121, 194);
+  background-color: rgb(18, 18, 18);
+  height: 60rem;
+  padding-top: 10rem;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background-color: rgb(18, 18, 18);
+}
+.slider-container {
+  margin-left: 2rem;
+  width: 90%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  /* transition: transform 0.3s ease-in-out; */
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  width: 50%;
+  padding-top: 8rem;
+  background-color: rgb(18, 18, 18);
+}
+.item-name {
+  color: aliceblue;
+  font-size: 35px;
+  margin-left: 3rem;
+  /* font-weight: bold; */
+  padding-bottom: 2rem;
+}
+.price {
+  color: aliceblue;
+  font-size: 4.5rem;
+  font-size: 75px;
+  margin-left: 3rem;
+  font-weight: bold;
+}
+.size {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: aliceblue;
+}
+.size li {
+  margin-left: 3rem;
+}
+.buttons {
+  /* margin-left: 3rem; */
+  /* margin-top: 2rem; */
+  /* margin-left: 3rem; */
+  padding: 2rem 3rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buttons .add-to-cart {
+  font-family: "Space Grotesk", sans-serif;
+  white-space: nowrap;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  border: 1px solid white;
+  font-size: 30px;
+  width: 30rem;
+  padding: 2px;
+}
+.buttons .buy-now {
+  font-family: "Space Grotesk", sans-serif;
+  white-space: nowrap;
+  font-size: 30px;
+  width: 30rem;
+  padding: 2px;
+}
+
+.about-product {
+  color: white;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.headings {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 5rem;
+  margin-bottom: 10px;
+}
+
+.description-heading,
+.reviews-heading {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.description-heading::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  bottom: -10px;
+  left: 0;
+}
+
+.content {
+  /* display: none; */
+}
+
+.active {
+  display: block;
+}
